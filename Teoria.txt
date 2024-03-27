@@ -1,0 +1,26 @@
+Web Scraping com Python
+
+Percorre as páginas web buscando informações. 
+O HTML (Hyper Text Markup Language) possui marcações em tags, no qual em cada tag delimitada por < > possui uma área da pagina, assim o HTML delimita cada parte de uma parte da página com uma tag de abertura ( <> ) e fechamento ( </> )exemplo:
+<html> - onde inicia o documento
+<head> - o cabeçalho do documentos
+entre outros.
+
+Protocolo HTTP
+Protocolo de interconexão de redes de computadores, que padroniza o envio e recebimento de infomrações. É uma forma que foi convencionada para mostrar como as coisas devem funcionar. 
+O HTTP (HyperText transfer Protocol) define o modo como as coisas são acessadas na web.
+As respostas das requisições são Strings padronizadas, assim quando é feito uma requisição em Python (ou outra linguagem) a resposta virá em: Código de status, cabeçalho e conteúdo. 
+
+* Códigos de Status
+	Informativo (1XX) - resposta sem conteúdo, contem informações sobre comunicação
+	Sucesso (2XX) - A mensagem chegou ao servidor e era válido
+	Redirecionamento (3XX) - O recurso buscado esta em outro servidor
+	Erro do cliente (4XX) - A requisição possui algum erro
+	Erro do servidor (5XX) - O servidor não pode atender à requisição
+
+
+
+Um dos metos HTTP são:
+GET: solicita um recurso para servidor (uma página da web, por exemplo)
+POST: Enviamos uma informação para o servidor, como por exemplo um login onde é feito o envio dos dados de acesso que serão verificados. 
+

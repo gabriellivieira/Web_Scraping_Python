@@ -33,7 +33,7 @@ for noticia in noticias:
 
 news = pd.DataFrame(lista_noticias, columns=['Titulo', 'Subnoticia', 'Link'])
 
-#Salvando a ista em um arquivo CSV sem o index
+#Salvando a lista em um arquivo CSV sem o index
 news.to_csv('Noticias_03_New.csv', index=False)
 
 #print(news)
